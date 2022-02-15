@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: aliceblue;
+  font-family: "Rubik", sans-serif;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: #c8f2ef;
+  border-bottom: solid 1px lightgrey;
+}
+
+.login-form {
+  background: #fff;
+  width: 500px;
+  margin: 65px auto;
+  display: -webkit-box;
+  display: flex;
+
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.login-form h1 {
+  padding: 35px 35px 0 35px;
+  font-weight: 300;
+}
+.login-form .content {
+  padding: 35px;
+  text-align: center;
+}
+.login-form .input-field {
+  padding: 12px 5px;
+}
+.login-form .input-field input {
+  font-size: 16px;
+  display: block;
+  font-family: "Rubik", sans-serif;
+  width: 100%;
+  padding: 10px 1px;
+  border: 0;
+  border-bottom: 1px solid #747474;
+  outline: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.login-form .input-field input:focus {
+  border-color: #222;
+}
+.login-form a.link {
+  text-decoration: none;
+  color: #747474;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+}
+.login-form .action {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+}
+.btn {
+  width: 100%;
+  background-color: #8bdb81;
+  text-decoration: none;
+  padding: 0 45%;
+  color: #747474;
+  border-radius: 4px;
+}
+.footer {
+  position: fixed;
+  border-top: solid 1px lightgrey;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #c8f2ef;
+  text-align: center;
+}
+.home-login {
+  position: fixed;
+  margin-left: 80%;
+}
+.links {
+  text-decoration: none;
+  color: #747474;
+}
+.container {
+  display: flex;
+}
+.info {
+  background-color: #deedf0;
+  width: 20%;
+}
+.main-content {
+  width: 60%;
+  background-color: aliceblue;
+}
+.announcement {
+  background-color: #deedf0;
+  width: 20%;
+}
+.product {
+  border: solid 1px lightgrey;
+  width: 60%;
+  margin: auto;
+  border-radius: 4px;
+}
